@@ -22,8 +22,8 @@ const CreateProduct = () => {
     const categoriesData = [
         { title: "Electronics" },
         { title: "Fashion" },
-        { title: "Books" },
         { title: "Home Appliances" },
+        { title: "Books" },
     ];
 
     useEffect(() => {
