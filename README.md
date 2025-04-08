@@ -104,30 +104,19 @@ In this milestone, we implemented the backend functionality to add products to t
 In this milestone, we create an frontend page UI for cart and write an endpoint to increase and decrease the quantity of product inside cart
 
 ## 🌟 Milestone 20: 
-Created a GET /user/profile endpoint to fetch user details (name, email, profile photo, addresses).
-Implemented functionality to send user data via email.
-Designed a Profile Page displaying the user’s photo, name, and email, with addresses in a separate section.
-If no addresses are found, a "No address found" message is shown, along with an "Add Address" button.
+In this milestone , we will profile page frontend and write an endpoint to receive user data and display.
 
-## ⭐ Milestone 21:
-Created a frontend form to collect user addresses.
-Included fields: Country, City, Address Line 1, Address Line 2, Zip Code, Address Type.
-Stored input values in state for efficient data management.
-Implemented navigation from the profile page to the address form.
-On form submission, data is currently logged in the console (backend integration planned).
-Added form validation for required fields to ensure a smooth user experience.
+## 🌟 Milestone 21: 
+In this milestone , we will create an frontend page form for address input.
 
-## ⭐ Milestone 22: Storing User Addresses
-Created a POST /user/address endpoint to store addresses in the user profile in the database.
-The endpoint receives address data from the frontend form and adds it to the address array in the user collection.
+## 🌟 Milestone 22: 
+In this milestone , we will create an backend endpoint that will save the address inside user profile in database.
 
-## ⭐ Milestone 23: Select Address & Product Schema
-Created a select address page in the frontend for users to choose their saved addresses.
-Developed the product schema in the backend for handling orders.
+## 🌟 Milestone 23: 
+In this milestone , we will make our create an select address page in frontend and we will write product schema for the orders in the backend.
 
-## ⭐ Milestone 24: Order Confirmation Page
-Built an order confirmation page in the frontend.
-Displays ordered products, selected address, and total price details.
+## 🌟 Milestone 24: 
+In this milestone ,  we will make our create an order conformation page in frontend where will display products ordering and address selected and total price details.
 
 ## ⭐ Milestone 25: Store Order Details in Database
 Created an API endpoint to receive product, user, and address details.
@@ -163,3 +152,12 @@ In the My Orders page, add a "Cancel Order" button for each order.
 If an order is already canceled, the button should not be displayed.
 Create an API endpoint that will receive the order_id.
 Fetch the order using this order_id, update its status to "Canceled", and save the changes.
+
+## ⭐ Milestone 29:
+In this Milestone , we will learn how to add online payment gateway to our application using Paypal api.
+
+## ⭐ Milestone 30:
+In this Milestone ,  we will learn how to add online payment gateway to our application using PayPal API. This is an continuous milestone of milestone 29 where you created PayPal account and get the userid.
+
+## ⭐ Milestone 31:
+In this Milestone , we will learn how to implement global state management using Redux.
